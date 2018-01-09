@@ -4,7 +4,7 @@ import os
 
 common.reset_dir('output')
 
-img = PIL.Image.new(mode='RGBA',size=(100,100),color=(225,0,0,255))
+img = PIL.Image.new(mode='RGBA',size=(100,100),color=(255,0,0,255))
 img.save(os.path.join('output','red.png'),'PNG')
 
 img = PIL.Image.new(mode='RGBA',size=(100,100),color=(0,255,0,255))
